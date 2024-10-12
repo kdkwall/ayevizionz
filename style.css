@@ -149,7 +149,13 @@ body {
         font-size: 1.6rem;
     }
     #navbar__logo {
-        padding-left: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        max-width: 80px;
+        max-height: 80px;
+
     }
     .navbar__toggle .bar {
         width: 25px;
@@ -279,6 +285,11 @@ body {
 
 }
 .main__content {
+    
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     width: 100%;
 
@@ -288,7 +299,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5rem;
+    font-size: 6rem;
     background-color: hsl(0, 100%, 50%);
     background-image: linear-gradient(to top, #000000 0%, #000000 100%);
     background-size: 100%;
@@ -300,8 +311,9 @@ body {
     margin-top: 0;
 }
 .main__content h2{
-    font-size: 4rem;
-    font-weight: bold;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: none;
     background-size: 100%;
     background: #fff;
     -webkit-background-clip: text;
